@@ -60,7 +60,7 @@ public class BallDemo
      
        BouncingBall ball = new BouncingBall
        
-       (xpos.nextInt(300),50, random.nextInt(100), Color.BLUE, ground, myCanvas);
+       (xpos.nextInt(300)+37,50, random.nextInt(100), Color.BLUE, ground, myCanvas);
        
       // ballMap.put(n, ball);
        ballCollection.add (ball);
@@ -68,13 +68,16 @@ public class BallDemo
            // make them bounce  
         boolean finished =  false;
         while (!finished) {
-            finished = true;
+            finished=true;
             //for (int j=0; j<ballMap.size(); j++){
            for (int j=0; j<ballCollection.size(); j++){
+             
           //HashMap: BouncingBall selectedBall = ballMap.get (j);
           BouncingBall selectedBall = ballCollection.get (j);
          
+           
           selectedBall.draw();
+          
             // stop once ball has travelled a certain distance on x axis
             if(selectedBall.getXPosition() < 460){ 
                 selectedBall.move();
@@ -83,8 +86,10 @@ public class BallDemo
             if(selectedBall.getXPosition() < 460){ 
                 finished = false;
             }
+            
         }
         
+         
     }
     myCanvas.wait(50);  // small delay
   }
