@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Canvas
-comment0.text=\r\n\ Class\ Canvas\ -\ a\ class\ to\ allow\ for\ simple\ graphical\ \r\n\ drawing\ on\ a\ canvas.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ (mik)\r\n\ @author\ Bruce\ Quig\r\n\r\n\ @version\ 2016.02.29\r\n
+comment0.text=\r\n\ Class\ Canvas\ -\ a\ class\ to\ allow\ for\ simple\ graphical\ \r\n\ drawing\ on\ a\ canvas.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ (mik)\r\n\ @author\ Bruce\ Quig\r\n\r\n\ @version\ 05.06.2018\r\n
 comment1.params=title
 comment1.target=Canvas(java.lang.String)
 comment1.text=\r\n\ Create\ a\ Canvas\ with\ default\ height,\ width\ and\ background\ color\ \r\n\ (300,\ 300,\ white).\r\n\ @param\ title\ \ title\ to\ appear\ in\ Canvas\ Frame\ \ \ \ \ \r\n

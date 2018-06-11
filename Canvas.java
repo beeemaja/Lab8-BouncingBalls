@@ -9,7 +9,7 @@ import java.awt.geom.*;
  * @author Michael Kölling (mik)
  * @author Bruce Quig
  *
- * @version 2016.02.29
+ * @version 05.06.2018
  */
 
 public class Canvas

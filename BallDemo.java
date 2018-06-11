@@ -11,7 +11,8 @@ import java.util.HashMap;
  * Class BallDemo - a short demonstration showing animation with the 
  * Canvas class. 
  *
- * @author Michael Kölling and David J. Barnes
+ * @author Mayya Bareeva, Huong Phan,Omar Gabarine
+
  * @version 05.06.2018
  */
 
@@ -60,7 +61,7 @@ public class BallDemo
      
        BouncingBall ball = new BouncingBall
        
-       (xpos.nextInt(300)+37,50, random.nextInt(100), Color.BLUE, ground, myCanvas);
+       (xpos.nextInt(300)+40,50, random.nextInt(100), Color.BLUE, ground, myCanvas);
        
       // ballMap.put(n, ball);
        ballCollection.add (ball);
@@ -81,6 +82,7 @@ public class BallDemo
             // stop once ball has travelled a certain distance on x axis
             if(selectedBall.getXPosition() < 460){ 
                 selectedBall.move();
+                myCanvas.wait(10);
             }
             
             if(selectedBall.getXPosition() < 460){ 
@@ -91,7 +93,7 @@ public class BallDemo
         
          
     }
-    myCanvas.wait(50);  // small delay
+    //myCanvas.wait(20);  // small delay
   }
 
 

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=BallDemo
-comment0.text=\r\n\ Class\ BallDemo\ -\ a\ short\ demonstration\ showing\ animation\ with\ the\ \r\n\ Canvas\ class.\ \r\n\r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 05.06.2018\r\n
+comment0.text=\r\n\ Class\ BallDemo\ -\ a\ short\ demonstration\ showing\ animation\ with\ the\ \r\n\ Canvas\ class.\ \r\n\r\n\ @author\ Mayya\ Bareeva,\ Huong\ Phan,Omar\ Gabarine\r\n\r\n\ @version\ 05.06.2018\r\n
 comment1.params=
 comment1.target=BallDemo()
 comment1.text=\r\n\ Create\ a\ BallDemo\ object.\ Creates\ a\ fresh\ canvas\ and\ makes\ it\ visible.\r\n
